@@ -1,0 +1,14 @@
+<div class="header">
+	<div class="wrapp">
+	
+		
+		<a href="#" class="header__logo">jet<span class="header__logo-span">ro</span></a>
+	
+		<ul class="nav header__nav">
+			{% for link in content.navigation %}
+				<li class="nav__item"><a href="#" class="nav__item-link">{{link.nav_link}}</a></li>
+			{% endfor %}
+		</ul>
+		
+	</div>
+</div>

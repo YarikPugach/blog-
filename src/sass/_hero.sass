@@ -1,0 +1,27 @@
+.hero
+	overflow: hidden
+
+	.block-title
+		background: $color-main
+		padding: 1rem
+		color: #fff
+		letter-spacing: 2px
+		position: relative
+		&:before
+			content: ""
+			background: lighten($color-main, 20%)
+			position: absolute
+			width: 1000px
+			right: 100%
+			margin-right: 10px
+			height: 100%
+			top: 0
+		&:after
+			content: ""
+			background: lighten($color-main, 20%)
+			position: absolute
+			width: 1000px
+			left: 100%
+			margin-left: 10px
+			height: 100%
+			top: 0

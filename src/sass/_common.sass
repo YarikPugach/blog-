@@ -1,0 +1,56 @@
+$color-main: #e8603c
+$color-txt: #414141
+$color-link: #b9b9b9
+
+
+html
+	font-size: 10px
+body
+	background: #fff url(../img/bg.jpg)
+	font-family: Helvetica, Arial, sans-serif
+
+a
+	text-decoration: none
+	color: $color-link
+	&:hover
+		color: $color-main
+
+.wrapp
+	max-width: 960px
+	margin: 1rem auto
+	padding-left: 1rem
+	padding-right: 1rem
+
+.h2__link
+	color: $color-main
+	text-transform: uppercase
+
+.h2
+	font-family: 'Bebas', sans-serif
+	font-weight: 100
+	font-size: 2.4rem
+	text-transform: uppercase
+
+.h3
+	font-family: 'Bebas', sans-serif
+	font-weight: 100
+	font-size: 1.4rem
+	color: $color-main
+	margin-bottom: 0.5rem
+
+.text
+	font-family: Helvetica
+	font-weight: 400  
+	color: $color-txt
+	line-height: 1.5
+	font-size: 1.2rem
+
+.link
+	font-size: 1.2rem
+	color: $color-link
+
+
+.clearfix::after
+	content: ''
+	display: table
+	clear: both
